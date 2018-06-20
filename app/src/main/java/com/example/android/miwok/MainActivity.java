@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void openNumbersList (View view){
+    public void openNumbersList(View view) {
         Intent numbers = new Intent(this, ColorsActivity.class);
         startActivity(numbers);
     }
